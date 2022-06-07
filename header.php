@@ -28,7 +28,7 @@
     <?php wp_head(); ?>
 </head>
 
-<?php if( is_page(array(1264, 10, 12, 14, 16, 18, 23, 25, 27)) ): ?>
+<?php if( is_page(array(1264, 10, 12, 14, 16, 18, 23, 25, 27, 5378)) ): ?>
     <body <?php body_class('loading'); ?>>
 <?php else: ?>
     <body <?php body_class(); ?>>
@@ -65,6 +65,7 @@
                                         <li class="subnav-link"><a class="<?php if( is_page(12) ){ echo 'current'; } ?>" href="<?php echo get_permalink(12); ?>">Profile</a></li>
                                         <li class="subnav-link"><a class="<?php if( is_page(14) ){ echo 'current'; } ?>" href="<?php echo get_permalink(14); ?>">Awards</a></li>
                                         <li class="subnav-link"><a class="<?php if( is_page(18) ){ echo 'current'; } ?>" href="<?php echo get_permalink(18); ?>">Publications</a></li>
+                                        <li class="subnav-link"><a class="<?php if( is_page(5378) ){ echo 'current'; } ?>" href="<?php echo get_permalink(5378); ?>">Careers</a></li>
                                     </ul>
                                 </li>
                                 

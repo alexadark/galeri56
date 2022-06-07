@@ -143,6 +143,46 @@
                                 <p><?php the_field('architect'); ?></p>
                             </div>
                         <?php endif; ?>
+
+                        <?php if(get_field('awards')): ?>
+                            <div class="project-code">
+                                <small>Awards</small>
+                                <?php $awards = get_field('awards');?>
+                                <?php foreach($awards as $award):?>
+                                <p>
+                                    <?php if ($award['url']):?>
+                                    <a href="<?php print $award['url'];?>" style="text-decoration: none;">
+                                    <?php endif;?>
+                                    <?php print $award['year'];?><br>
+                                    <?php print $award['description'];?>
+                                    <?php if ($award['url']):?>
+                                    </a>
+                                    <?php endif;?>
+                                </p>
+                                <?php endforeach;?>
+                            </div>
+                        <?php endif; ?>
+
+                        <?php if(get_field('press')): ?>
+                            <div class="project-code">
+                                <small>Press</small>
+                                <?php $presses = get_field('press');?>
+                                <?php foreach($presses as $press):?>
+                                <p>
+                                    <?php if ($press['url']):?>
+                                    <a href="<?php print $press['url'];?>" style="text-decoration: none;" target="_blank">
+                                    <?php endif;?>
+                                    <?php print $press['date'];?><br>
+                                    <?php print $press['description'];?>
+                                    <?php if ($press['url']):?>
+                                    </a>
+                                    <?php endif;?>
+                                </p>
+                                <?php endforeach;?>
+                            </div>
+                        <?php endif; ?>
+
+
                     </div>
 
                     <div class="small-20 small-medium-10 columns">

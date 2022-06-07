@@ -49,14 +49,14 @@
                                 </p>
                             </div>
 
-                            <div class="careers">
+                            <!-- <div class="careers">
                                 <small>Careers</small>
                                 <p>
                                     <a href="mailto:<?php the_field('careers_email', 27); ?>">
                                         <?php the_field('careers_email', 27); ?>
                                     </a>
                                 </p>
-                            </div>
+                            </div> -->
 
                             <div class="social-media">
                                 <small>Social Media</small>
@@ -160,6 +160,7 @@
                         <li><a class="link sublink <?php if( is_page(12) ){ echo 'current'; } ?>" href="<?php echo get_permalink(12); ?>">Profile</a></li>
                         <li><a class="link sublink <?php if( is_page(14) ){ echo 'current'; } ?>" href="<?php echo get_permalink(14); ?>">Awards</a></li>
                         <li><a class="link sublink <?php if( is_page(18) ){ echo 'current'; } ?>" href="<?php echo get_permalink(18); ?>">Publications</a></li>
+                        <li><a class="link sublink <?php if( is_page(5378) ){ echo 'current'; } ?>" href="<?php echo get_permalink(5378); ?>">Careers</a></li>
                     </ul>
                 </li>
                 
