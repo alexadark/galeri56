@@ -8,9 +8,9 @@ Template Name: Projects
 
 <div id="page-header">
     <div class="row">
-        <div class="small-20 large-10 columns">
+        <!-- <div class="small-20 large-10 columns">
             <h1><?php the_title(); ?></h1>
-        </div>
+        </div> -->
 
         <div class="small-20 large-10 columns">
             <ul class="filter-grid small-block-grid-1 large-block-grid-2">
