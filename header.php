@@ -69,7 +69,7 @@
                                             href="<?php echo get_permalink(10); ?>">Products</a></li>
                                     <li class="desktop-link link"><a
                                             class="<?php if( is_page(4552) ){ echo 'current'; } ?>"
-                                            href="<?php echo get_permalink(4552); ?>">Spaces</a></li>
+                                            href="<?php echo get_permalink(4552); ?>">Space</a></li>
 
                                     <li class="desktop-link link has-subnav">
                                         <a class="<?php if( is_page( array(12,14,16,18) ) ){ echo 'current'; } ?>"
